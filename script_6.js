@@ -41,9 +41,7 @@ ntab2 = []
 for (var i = 0; i < ntab.length; i++) {
 		ntab2.push(tcondon(ntab[i]));
 }
-console.log(tcondon(ntab[i]))
-	
-	console.log(`acide_aminé corresponant a  ${ARN} est ${ntab2[0]}-${ntab2[1]}-${ntab2[2]}-${ntab2[3]}`)
+console.log(`acide_aminé corresponant a  ${ARN} est ${ntab2[0]}-${ntab2[1]}-${ntab2[2]}-${ntab2[3]}`)
 
 
 
