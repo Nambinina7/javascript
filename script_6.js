@@ -6,8 +6,9 @@ ntab = [];
 while(count < ARN.length){
 	ntab.push(ARN[count] + ARN[count+1] + ARN[count+2])
 	count +=3;
+	console.log(ntab);
 	}
-	//Manova codon ho lasa acide_amin
+//Manova codon ho lasa acide_amin
 function tcondon(codon) {
 if (codon === "UCU" ||codon === "UCC" ||codon === "UCA" ||codon === "UCG" ||codon === "AGU" ||codon === "AGC"){
 	acide_amin = "Sérine"
