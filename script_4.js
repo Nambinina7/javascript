@@ -21,10 +21,11 @@ const entrepreneurs = [
 //console.log(entrepreneurs.slice(2,4));
 console.log(" 1)les entrepreneurs qui sont nés dans les années 70")
 for (var i = 0 ; i < entrepreneurs.length ; i++) {
-  if (entrepreneurs[i].year > 1970) {
+  if (entrepreneurs[i].year > 1970 && entrepreneurs[i].year < 1980) {
   console.log(entrepreneurs[i].last + " " + ":" + entrepreneurs[i].year );
   }
 }
+console.log("-----------------------------------------------------------------------------")
 
 console.log("2)array qui contient le prénom et le nom des entrepreneurs")
 
@@ -37,6 +38,7 @@ for (var i = 0 ; i < entrepreneurs.length ; i++) {
   lastfirst.unshift(e);
   }
 console.log(lastfirst);
+console.log("-----------------------------------------------------------------------------")
 
 console.log("3)l'âge q'aurait chaque inventeur aujourd'hui")
 for (var i = 0 ; i < entrepreneurs.length ; i++) {
@@ -44,6 +46,7 @@ for (var i = 0 ; i < entrepreneurs.length ; i++) {
      age = (2019 - entrepreneurs[i].year);
      console.log(`l'age de ${a } aujourd'hui est ${ age}`);
   }
+console.log("-----------------------------------------------------------------------------")
 
 console.log("4)les nom de famille des entrepreneurs par ordre alphabétique")
 entrepreneurs.sort(function(a, b) {
