@@ -77,7 +77,7 @@ console.log(books)
 
 console.log("-----------------------------------------------------------------------------")
 
-console.log("6)ie les livres par ordre alphabétique (sans celui avec l'ID 133712 car il est supprimé).")
+console.log("6) les livres par ordre alphabétique (sans celui avec l'ID 133712 car il est supprimé.")
 books.sort(function(a, b) {
   var titleA = a.title.toUpperCase(); // ignore upper and lowercase
   var titleB = b.title.toUpperCase(); // ignore upper and lowercase
