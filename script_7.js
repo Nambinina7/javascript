@@ -1,10 +1,8 @@
 let b = prompt("Entre votre question")
 function reponse(b) {
-	if (b.toUpperCase(b)){
-	console.log("Pwa, calme-toi...")
-	}
-	else{
-		console.log(rien);
+	fin = b.length -1
+	if ( fin === "?"){
+	console.log("Ouais Ouais...");
 	}
 }
 reponse(b);
